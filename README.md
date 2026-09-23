@@ -115,3 +115,8 @@ Les **paramètres SMTP** correspondants (serveur, port, SSL) doivent être reche
 *Énoncé à venir*
 
 ---
+
+## Ryan Kraus
+<a href="https://github.com/ryandodo05">
+  <img src="https://avatars.githubusercontent.com/u/188335310?s=60&v=4" width="96" height="96" alt="USER" style="border-radius: 20%;" />
+</a> <!-- Kraus Ryan -->
