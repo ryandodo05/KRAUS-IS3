@@ -70,12 +70,12 @@ Les **paramètres SMTP** correspondants (serveur, port, SSL) doivent être reche
 #### 1. Interface crée
 
 <p align="center">
-  <img src="screenshots/seance2_interface.png" width="500"/>
+  <img src="screenshots/seance2.png" width="500"/>
 </p>
 
 #### 2. Mail recu
 <p align="center">
-  <img src="screenshots/seance2_mail_recu.png" width="500"/>
+  <img src="screenshots/seance2-2.png" width="500"/>
 </p>
 
 ---
