@@ -66,6 +66,14 @@ Les **paramètres SMTP** correspondants (serveur, port, SSL) doivent être reche
 - Gérer la vérification en deux étapes (compte Microsoft) :  
   <https://account.live.com/proofs/Manage/>
 
+#### Démonstration
+
+##### Interface de l'application
+![Interface Séance 2](screenshots/seance2.png)
+
+##### Mail reçu
+![Mail reçu](screenshots/seance2-2.png)
+
 ---
 
 ## ⏳ Séance 3
