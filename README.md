@@ -67,12 +67,16 @@ Les **paramètres SMTP** correspondants (serveur, port, SSL) doivent être reche
   <https://account.live.com/proofs/Manage/>
 
 #### Démonstration
+#### 1. Interface crée
 
-##### Interface de l'application
-![Interface Séance 2](screenshots/seance2.png)
+<p align="center">
+  <img src="screenshots/seance2_interface.png" width="500"/>
+</p>
 
-##### Mail reçu
-![Mail reçu](screenshots/seance2-2.png)
+#### 2. Mail recu
+<p align="center">
+  <img src="screenshots/seance2_mail_recu.png" width="500"/>
+</p>
 
 ---
 
