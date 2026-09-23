@@ -29,25 +29,25 @@ namespace KRAUS_IS3
         {
             try
             {
-                MailMessage mail = new MailMessage();
-                mail.From = new MailAddress(txtEmailExpediteur.Text);
-                mail.To.Add(txtEmailDestinataire.Text);
-                mail.Subject = txtObjet.Text;
-                mail.Body = txtMessage.Text;
+                MailMessage mail = new MailMessage(); // Création d'un nouvel objet MailMessage
+                mail.From = new MailAddress(txtEmailExpediteur.Text); // Définition de l'adresse e-mail de l'expéditeur
+                mail.To.Add(txtEmailDestinataire.Text); // Ajout de l'adresse e-mail du destinataire
+                mail.Subject = txtObjet.Text; // Définition de l'objet du mail
+                mail.Body = txtMessage.Text;// Définition du corps du mail
 
-                SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
-                smtp.Credentials = new NetworkCredential(txtEmailExpediteur.Text, txtPassword.Password);
-                smtp.EnableSsl = true;
+                SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587); //pour google
+                smtp.Credentials = new NetworkCredential(txtEmailExpediteur.Text, txtPassword.Password); // Définition de mdp etc
+                smtp.EnableSsl = true; //ssl pour securité
 
                 smtp.Send(mail);
 
-                txtStatus.Foreground = Brushes.Green;
+                txtStatus.Foreground = Brushes.Green; // Changement de la couleur du texte pour indiquer le succès
                 txtStatus.Text = "Mail envoyé !";
             }
-            catch (Exception ex)
+            catch (Exception ex)// sinon erreur
             {
                 txtStatus.Foreground = Brushes.Red;
-                txtStatus.Text = "Erreur lors de l'envoi : " + ex.Message;
+                txtStatus.Text = "Erreur : " + ex.Message;
             }
         }
     }
