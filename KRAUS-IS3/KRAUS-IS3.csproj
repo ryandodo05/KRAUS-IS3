@@ -55,6 +55,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Seance2.xaml.cs">
+      <DependentUpon>Seance2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Seance3.xaml.cs">
+      <DependentUpon>Seance3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Seance4.xaml.cs">
+      <DependentUpon>Seance4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Seance5.xaml.cs">
+      <DependentUpon>Seance5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Seance6.xaml.cs">
+      <DependentUpon>Seance6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Seance7.xaml.cs">
+      <DependentUpon>Seance7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Seance8.xaml.cs">
+      <DependentUpon>Seance8.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +88,34 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Seance2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Seance3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Seance4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Seance5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Seance6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Seance7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Seance8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
