@@ -48,7 +48,7 @@ namespace KRAUS_IS3
             {
                 txtStatus.Foreground = Brushes.Red;
                 txtStatus.Text = "Erreur : " + ex.Message;
-            }
+            } // test
         }
     }
 }
