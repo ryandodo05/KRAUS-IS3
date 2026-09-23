@@ -13,12 +13,6 @@
 
 ---
 
-## Séance 1 — Introduction WPF
-
-> **Statut :** ✅ Terminé
-**Description :** Première prise en main de WPF — découverte de l'environnement Visual Studio, structure d'un projet WPF, premier `MainWindow` et premiers contrôles XAML.
----
-
 ## Séance 2 — XAML, Layout et Envoi de mail
 > **Statut :** En cours
 
