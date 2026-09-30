@@ -80,11 +80,35 @@ Les **paramètres SMTP** correspondants (serveur, port, SSL) doivent être reche
 
 ---
 
-## ⏳ Séance 3
+## - Séance 3 — To-Do List
 
-> **Statut :** ⏳ À venir
+#### Objectif
 
-*Énoncé à venir*
+Créer une liste de tâches dans l’application WPF.
+
+### Fonctionnalités
+
+- Ajouter et supprimer une tâche.
+- Cocher une tâche pour la marquer comme terminée.
+- Afficher une tâche terminée en gris et barrée.
+- Enregistrer la liste dans le fichier `taches.txt`, dans le dossier de l’application.
+
+### Démonstrations via captures d’écran
+
+#### 1. Ajout d’une tâche
+<p align="center">
+  <img src="screenshots/seance3-ajout.png" width="500" alt="Ajout d’une tâche"/>
+</p>
+
+#### 2. Tâche terminée
+<p align="center">
+  <img src="screenshots/seance3-coche.png" width="500" alt="Tâche cochée et barrée"/>
+</p>
+
+#### 3. Suppression d’une tâche
+<p align="center">
+  <img src="screenshots/seance3-suppression.png" width="500" alt="Suppression d’une tâche"/>
+</p>
 
 ---
 
