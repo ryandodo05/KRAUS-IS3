@@ -1,12 +1,92 @@
-﻿<Window x:Class="KRAUS_IS3.Seance3"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:KRAUS_IS3"
-        mc:Ignorable="d"
-        Title="Seance3" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
-</Window>
+﻿<Page x:Class="KRAUS_IS3.Seance3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:local="clr-namespace:KRAUS_IS3"
+      mc:Ignorable="d"
+      Title="Seance3">
+
+    
+    
+    
+    
+    <Page.Resources>
+        <local:IsDoneConverter x:Key="IsDoneConverter"/>
+    </Page.Resources>
+
+
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Titre en haut -->
+        <Border Grid.Row="0" Background="#FF412C50">
+            <TextBlock Text="Séance 3 - To-Do List"
+                       Foreground="White"
+                       FontSize="22"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Border>
+
+
+
+
+
+        <StackPanel Margin="15">
+        <TextBox x:Name="NouvelleTacheTextBox"
+                 Height="30"
+                 Margin="0,0,0,10"/>
+
+        <Button Content="Ajouter"
+                Height="30"
+                Margin="0,0,0,10"
+                Click="Ajouter_Click"/>
+
+        <ListBox x:Name="TachesListBox"
+                 Height="260">
+
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox IsChecked="{Binding IsDone,
+                                                      Mode=TwoWay,
+                                                      UpdateSourceTrigger=PropertyChanged}"
+                                  VerticalAlignment="Center"
+                                  Margin="5"/>
+                            <!-- Le is done ser a relier la case a sa propriété et twoway c'est poru que les modifs soient pris en compte dans les deux sens
+                        -->
+
+                            <TextBlock Text="{Binding Texte}"
+                                   VerticalAlignment="Center"
+                                   Foreground="{Binding IsDone,
+                                       Converter={StaticResource IsDoneConverter}}"
+                                   TextDecorations="{Binding IsDone,
+                                       Converter={StaticResource IsDoneConverter},
+                                       ConverterParameter=Decoration}"/> <!-- sert a  -->
+
+                        </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="0,10,0,0">
+
+            <Button Content="Supprimer"
+                    Width="100"
+                    Margin="5"
+                    Click="Supprimer_Click"/>
+
+            <Button Content="Enregistrer"
+                    Width="100"
+                    Margin="5"
+                    Click="Enregistrer_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Page>

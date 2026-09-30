@@ -66,14 +66,14 @@ Les **paramètres SMTP** correspondants (serveur, port, SSL) doivent être reche
 - Gérer la vérification en deux étapes (compte Microsoft) :  
   <https://account.live.com/proofs/Manage/>
 
-#### Démonstration
-#### 1. Interface crée
+#### Démonstrations via captures d'écrans
+#### 1. Interface crée et test envoie de mail
 
 <p align="center">
   <img src="screenshots/seance2.png" width="500"/>
 </p>
 
-#### 2. Mail recu
+#### 2. Mail recu de test depuis ryan.kraus.pro@gmail.com vers outlook
 <p align="center">
   <img src="screenshots/seance2-2.png" width="500"/>
 </p>
