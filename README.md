@@ -1,7 +1,7 @@
 ## 📑 Table des matières
 
-- [Séance 2 — XAML, Layout et Envoi de mail](#séance-2--xaml-layout-et-envoi-de-mail) 🚧
-- [Séance 3](#séance-3)
+- [Séance 2 — XAML, Layout et Envoi de mail](#séance-2--xaml-layout-et-envoi-de-mail)
+- [Séance 3 — To-Do List](#séance-3--to-do-list)
 - [Séance 4](#séance-4)
 - [Séance 5](#séance-5)
 - [Séance 6](#séance-6)
@@ -80,7 +80,7 @@ Les **paramètres SMTP** correspondants (serveur, port, SSL) doivent être reche
 
 ---
 
-## - Séance 3 — To-Do List
+## Séance 3 — To-Do List
 
 #### Objectif
 
