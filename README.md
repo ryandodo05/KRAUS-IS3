@@ -7,8 +7,6 @@
 - [Séance 6](#séance-6)
 - [Séance 7](#séance-7)
 - [Séance 8](#séance-8)
-- [🛠️ Technologies utilisées](#technologies-utilisées)
-- [📂 Structure du projet](#structure-du-projet)
 - [👤 Ryan](#Ryan)
 
 ---
