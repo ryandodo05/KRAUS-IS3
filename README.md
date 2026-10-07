@@ -2,7 +2,7 @@
 
 - [Séance 2 — XAML, Layout et Envoi de mail](#séance-2--xaml-layout-et-envoi-de-mail)
 - [Séance 3 — To-Do List](#séance-3--to-do-list)
-- [Séance 4](#séance-4)
+- [Séance 4 — Chronomètre analogique](#séance-4--chronomètre-analogique)
 - [Séance 5](#séance-5)
 - [Séance 6](#séance-6)
 - [Séance 7](#séance-7)
@@ -112,11 +112,36 @@ Créer une liste de tâches dans l’application WPF.
 
 ---
 
-## ⏳ Séance 4
+## Séance 4 — Chronomètre analogique
 
-> **Statut :** ⏳ À venir
+#### Objectif
 
-*Énoncé à venir*
+Ajouter un onglet à l'application WPF affichant un **chronomètre analogique**, en respectant le pattern **MVVM** (Vue → ViewModel → Model).
+
+### Fonctionnalités
+
+ - Un chrono qui s’incrémente toutes les secondes.  
+
+ - Trois boutons Démarrer, Arrêter, Réinitialiser. ( Les boutons doivent n'être disponibles que lorsqu'ils sont utiles, utilisez les RelayCommand….) 
+
+ - MVVM respecté : Vue →  ViewModel -> Model 
+
+### Démonstrations via captures d'écran
+
+#### 1. Lancement du chronomètre
+<p align="center">
+  <img src="screenshots/seance4-demarrer.png" width="500" alt="Chronomètre en marche"/>
+</p>
+
+#### 2. Chronomètre en pause
+<p align="center">
+  <img src="screenshots/seance4-arreter.png" width="500" alt="Chronomètre en arreter"/>
+</p>
+
+#### 3. Réinitialisation
+<p align="center">
+  <img src="screenshots/seance4-reset.png" width="500" alt="Chronomètre réinitialisé"/>
+</p>
 
 ---
 

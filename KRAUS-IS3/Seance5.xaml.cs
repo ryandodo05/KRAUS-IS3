@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace KRAUS_IS3
@@ -17,7 +18,7 @@ namespace KRAUS_IS3
     /// <summary>
     /// Logique d'interaction pour Seance5.xaml
     /// </summary>
-    public partial class Seance5 : Window
+    public partial class Seance5 : Page
     {
         public Seance5()
         {
